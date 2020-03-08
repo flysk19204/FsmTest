@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="StateMachine">
+      <UniqueIdentifier>{223e34b7-834d-4957-8fc1-bcf82a183da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachine\MonsterState">
+      <UniqueIdentifier>{d00e99fc-3e91-49fd-951f-667953310d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachine\UIState">
+      <UniqueIdentifier>{49c74b01-58f1-4694-a0b2-00d2ba7135bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FsmTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackState.cpp">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="CIdleState.cpp">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="CPersueState.cpp">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="CPatrolState.cpp">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateBase.cpp">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_CreateRole.cpp">
+      <Filter>StateMachine\UIState</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_LoginGame.cpp">
+      <Filter>StateMachine\UIState</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_SelectRole.cpp">
+      <Filter>StateMachine\UIState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackState.h">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="CIdleState.h">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="CPersueState.h">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="CPatrolState.h">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateBase.h">
+      <Filter>StateMachine\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_CreateRole.h">
+      <Filter>StateMachine\UIState</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_LoginGame.h">
+      <Filter>StateMachine\UIState</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_SelectRole.h">
+      <Filter>StateMachine\UIState</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
